@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.bellek-bellek--resim1{
+    background-image: url(./bg1.jpg);
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.bellek-bellek--resim2{
+    background-image: url(./bg2.jpg);
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.bellek-bellek--resim3{
+    background-image: url(./bg3.jpg);
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.bellek-bellek--resim4{
+    background-image: url(./bg4.jpg);
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.bellek-bellek--resim1{
+    background-image: url(./bg.jpg);
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed; 
+}
+
+.title-special{
+    font-size: 3rem;
+    text-align: center;
+    background-attachment: fixed;
+    width: 80%;
+
+}
+
+.title-special-title--başlık{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    outline:inset purple 0.6rem;
+    outline-offset: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.title-special-title--başlık-way{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    outline:inset purple 0.6rem;
+    outline-offset: 0.190rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.yazı{
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.yazı-beyaz{
+    color:#666;
+}
+.yazı-siyah{
+    color: white;
+    background-color: #282E34
+}
